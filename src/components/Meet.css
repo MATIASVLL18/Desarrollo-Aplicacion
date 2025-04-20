@@ -1,0 +1,114 @@
+.meet-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .video-box {
+    background: #000;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 320px;
+    height: 240px;
+    position: relative;
+  }
+  
+  .video-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-box p {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.4rem;
+  }
+  
+  .chat-section {
+    width: 300px;
+    background: #f9fafb;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-box {
+    max-height: 280px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    padding-right: 0.5rem;
+  }
+  
+  .chat-form {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .chat-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-form button {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .controls {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .controls button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: #f3f4f6;
+    transition: background 0.3s;
+  }
+  
+  .controls button:hover {
+    background: #e5e7eb;
+  }
+  
+  .end-call {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .end-call:hover {
+    background-color: #dc2626;
+  }
+  
+  .call-ended {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  
